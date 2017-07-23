@@ -1,7 +1,7 @@
 Highcharts.chart('container', {
 
     title: {
-        text: 'Last 10 days Earnings'
+        text: 'Last 7 days Earnings'
     },
 
     xAxis: {
@@ -19,7 +19,7 @@ Highcharts.chart('container', {
     },
 
     series: [{
-        data: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512],
+        data: [1, 2, 4, 8, 16, 32, 64],
         pointStart: 1
     }]
 });
